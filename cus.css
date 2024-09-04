@@ -335,3 +335,15 @@ li {
 .rtext {
     font-size: 15px;
 }
+
+.owner {
+    text-align: end;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+}
