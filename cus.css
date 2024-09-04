@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #fff;
+    border-bottom: 1px solid #f2f5f8;
+    position: sticky;
+    top: 0;
+}
+
+.nav-main {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.logo {
+    width: 20%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+CU:wght@100..400&family=Sevillana&display=swap');
+
+.logoText {
+    margin-left: 8px;
+    font-family: "Pacifico", cursive;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-c-s {
+    justify-content: start;
+}
+
+.j-c-c {
+    justify-content: center;
+}
+
+.a-i-c {
+    align-items: center;
+}
+
+.j-c-spaceBetween {
+    justify-content: space-between;
+}
+
+.j-c-spaceEvenly {
+    justify-content: space-evenly;
+}
+
+.j-c-spaceAround {
+    justify-content: space-around;
+}
+
+.mlr {
+    margin: 0 70px;
+}
+
+.search {
+    width: 60%;
+}
+
+.search-margin {
+    margin: 40px 70px;
+}
+
+.search-box {
+    border: 1px solid;
+    padding: 6px 15px;
+    border-radius: 20px;
+    width: 400px;
+    background-color: #fafafa;
+}
+
+.text-1 {
+    border: none;
+    background-color: #fafafa;
+    width: 100%;
+    margin-left: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #fe4f41;
+    color: #fff;
+}
+
+.menu {
+    width: 20%;
+}
+
+.menu-box {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.mlr-1 {
+    margin: 0px 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    width: 20%;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.text-center {
+    margin: 0 20px;
+}
+
+.circle-c {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100px;
+    height: 100px;
+}
+
+.mb {
+    margin-bottom: 30px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.mb-2 {
+    margin-bottom: 50px;
+}
+
+.mb-3 {
+    margin-bottom: 5px;
+}
+
+.mt {
+    margin-top: 70px;
+}
+
+.circle-img {
+    border-radius: 50%;
+    border: 4px solid #cc2b5e;  /* fallback for old browsers */
+    border-color: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+    border-color: linear-gradient(to right, #753a88, #cc2b5e);  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.text-number {
+    font-weight: bold;
+}
+.text-color {
+    color: #d0d0d0;
+}
+
+.flex-dir-c {
+    flex-direction: column;
+}
+
+.left-border {
+    border-left: 3px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left-border.active {
+    border-left: 3px solid #fe446c;
+    color: #fe446c;
+}
+
+li {
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0 17px;
+}
+
+.home {
+    font-size: 20px;
+    width: 7%;
+}
+
+.text-2 {
+    margin-left: 40px;
+}
+
+.center {
+    width: 60%;
+    background-color: #fafafa;
+    height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.c-margin {
+    margin: 40px 70px;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.f-d {
+    flex-direction: column;
+}
+
+.m-r {
+    margin-right: 50px;
+}
+
+.mb-2 {
+    margin-bottom: 50px;
+}
+
+.lp {
+    border: 1px solid #d0d0d0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.top {
+    height: 300px;
+}
+
+.post-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ml {
+    margin-left: 10px;
+}
+
+.fa-ellipsis {
+    font-size: 25px;
+}
+
+.post-card {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 670px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.wh {
+    width: 100%;
+    height: 400px;
+}
+
+.br {
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.picon {
+    margin-left: 10px;
+}
+
+.comment-box {
+    border: 1px solid ;
+    border-radius: 10px;
+    width: 90%;
+    padding: 5px;
+}
+
+.comment {
+    width: 85%;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.fa-face-smile {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.right {
+    width: 20%;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.r-margin {
+    margin: 50px 30px 0px;
+}
+
+.trending {
+    column-count: 2;
+    column-gap: 10px;
+}
+
+.timg {
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.mtb {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rtext {
+    font-size: 15px;
+}
